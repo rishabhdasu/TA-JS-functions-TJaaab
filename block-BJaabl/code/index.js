@@ -47,7 +47,7 @@ calc(20, 10, 'mul'); // 200
 */
 function calc(numA, numB, operation){
   
- if(numA == NaN && numB == NaN){
+ if(typeof numA !== "number" || typeof numB !== "NaN"){
    alert(`Enter a valid input`);
  }else {
   if(operation == "add"){
