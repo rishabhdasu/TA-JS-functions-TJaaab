@@ -53,6 +53,7 @@ let addNumb = function addOne(aNumber){
 }
 // - Write an Arrow Function without curly brackets(if possible)
 
+let addNumb = (aNumber) => aNumber +1;
 
 // - Write an Arrow Function with curly brackets
 
@@ -96,6 +97,8 @@ let substractOne = function addOne(aNumber){
 }
 
 // - Write an Arrow Function without curly brackets(if possible)
+
+let subNumb = (aNumber) => Anumber -1;
 
 // - Write an Arrow Function with curly brackets
 
@@ -143,6 +146,8 @@ let sum1 = function sum(numA, numB){
 
 
 // - Write an Arrow Function without curly brackets(if possible)
+
+let sum1 = (numA, numB) => numA + numB;
 
 // - Write an Arrow Function with curly brackets
 
@@ -239,6 +244,7 @@ let greater = function isGreater(x, y){
 
 // - Write an Arrow Function without curly brackets(if possible)
 
+
 // - Write an Arrow Function with curly brackets
 
 let greater =  (x, y) =>{
@@ -281,7 +287,7 @@ Do the following with above problem.
 // - Write a Function Declaration
 
 function oddOrEven(oddEven){
-  if(oddEven % 2 == 0){
+  if(oddEven % 2 === 0){
     return "Number is even";
   } else {
     return "Number is odd";
@@ -291,7 +297,7 @@ function oddOrEven(oddEven){
 // - Write an anonymous Function Expression
 
 let oddOrEven = function (oddEven){
-  if(oddEven % 2 == 0){
+  if(oddEven % 2 === 0){
     return "Number is even";
   } else {
     return "Number is odd";
@@ -314,7 +320,7 @@ let oddOrEven =  (oddEven) => oddEven % 2 == 0 ? "Number is even":"Number is odd
 // - Write an Arrow Function with curly brackets
 
 let oddEvenVar =  (oddEven) => {
-  if(oddEven % 2 == 0){
+  if(oddEven % 2 === 0){
     return "Number is even";
   } else {
     return "Number is odd";
@@ -329,7 +335,7 @@ oddOrEven(5);
 
 // - Execute the function and store the return value in a variable
 
-let result = oddOrEven(5);
+let result = oddEvenVar(5);
 
 undefined
 
